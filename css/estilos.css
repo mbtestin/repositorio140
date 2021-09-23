@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.container {
+    /* background-color: burlywood; */
+    width: 980px;
+    margin:auto;
+}
+.header__iconos {
+    background-color: blueviolet;
+    display: grid;
+    padding: 8px;
+}
+.container-header {
+    display: grid;
+}
+.header__iconos--iconos {
+  
+    display: flex;
+    justify-self: end;
+    font-size: 25px;
+}
+
+.header__iconos--iconos a {
+    color: #f4eafd;
+}
+.header__iconos--iconos a:hover {
+    color: white;
+    text-shadow: 0 0 4px white;
+}
+.header__iconos--iconos i {
+    margin: 0 7px;
+}
+nav {
+}
+
+.container-nav {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
+
+.nav__logo {
+   
+}
+.nav__logo img {
+    width: 100px;
+}
+
+.nav__link {
+    display: flex;
+    justify-content: flex-end; /*Está alineando elementos al final.. lado derecho*/
+    align-items: center;/* Me permite centrar verticalmente cuando utilizo flex*/
+}
+.nav__link a {
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav__link a:hover {
+    text-decoration: underline;
+}
+
+
+.main__principal {
+    background-color: #f3f1f5;
+    padding: 20px;
+}
+.main__principal--destacado {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr;
+}
+.main__principal--destacado img {
+    width: 100%;
+}
+
+.main__principal--destacado--col1 {
+
+}
+.main__principal--destacado--col2 {
+    padding: 20px 70px;
+}
+.main__principal--destacado--col2 .leer-mas,
+.main__articulos--articulo .leer-mas {
+    background-color: #6b33ae;   
+    color: white;  
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 10px 0;
+}
+.main__principal--destacado--col2 .leer-mas:hover,
+.main__articulos--articulo .leer-mas:hover {
+    background-color: blueviolet;
+}
+
+.main__articulos {
+    padding: 20px;
+}
+.container-articulos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap:25px
+}
+.main__articulos--articulo {
+
+}
+.main__articulos--articulo img {
+    width: 100%;
+}
+.main__articulos--articulo .fecha {
+    font-style: italic;
+    color: #998ca5;
+    font-size: 0.8em;
+    margin-top: -15px;
+}
+.main__articulos--articulo .leer-mas {
+    font-size: 0.75em;
+}
+
+footer {
+    margin-top:20px;
+}
+.footer__principal {
+    background-color: #5e12a5;
+    color: white;
+    padding: 10px;
+}
+.footer__principal--texto {
+    text-align: center;
+}
+.footer__secundario {
+    background-color: #33194d;
+    color: white;
+}
+.container-footer-secundario {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    padding: 30px;
+}
+.footer__secundario--creditos {
+    display: flex;
+    align-items: center;
+}
