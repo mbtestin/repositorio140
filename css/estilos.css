@@ -144,3 +144,50 @@ footer {
     display: flex;
     align-items: center;
 }
+
+@media (max-width:1050px) {
+    .container {
+        width:auto;
+    }
+    .nav__link {
+        padding-right: 20px;
+    }
+    .container-footer-secundario {
+        padding: 30px 20px;
+    }
+}
+@media (max-width:800px) {
+    .main__principal--destacado {
+        grid-template-columns: 2fr 3fr;
+    }
+    .main__principal--destacado--col2 {
+        padding: 0 30px;
+    }
+    .container-articulos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:600px) {
+    .nav__link {
+        text-align: right;
+    }
+    .main__principal--destacado {
+        grid-template-columns: 1fr;
+    }
+    .main__principal--destacado--col2 {
+        padding: 0;
+    }
+    .container-articulos {
+        grid-template-columns: 1fr;
+    }
+    .container-footer-secundario {
+        grid-template-columns: 1fr;
+    }
+    .footer__secundario--creditos {
+        text-align: center;
+        justify-content: center;
+    }
+    .header__iconos--iconos {
+        justify-self: center;
+    }
+}
