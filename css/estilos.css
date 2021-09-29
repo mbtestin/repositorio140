@@ -145,6 +145,9 @@ footer {
     align-items: center;
 }
 
+/* ************************************ */
+/* INICIO RESPONSIVE */
+
 @media (max-width:1050px) {
     .container {
         width:auto;
